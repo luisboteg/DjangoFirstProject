@@ -12,5 +12,6 @@ Para ejecutar el proyecto:
 2)  Instalar Docker
 3)  Abrir la carpeta BridgeforBillions desde el cmd
 4)  Ejecutar los siguientes comandos en la consola
+
     *docker build . --file ./Dockerfile --tag testapi*
     *docker run -dp 8000:8000 testapi*
