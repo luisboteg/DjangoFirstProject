@@ -16,3 +16,9 @@ Para ejecutar el proyecto:
     *docker build . --file ./Dockerfile --tag testapi*
 
     *docker run -dp 8000:8000 testapi*
+
+Para acceder a la web para probar y el backend y acceder al gestor ir a:
+
+Acceso normal: http://127.0.0.1:8000/
+
+Acceso admin: http://127.0.0.1:8000/admin/ 
