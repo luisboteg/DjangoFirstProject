@@ -1,0 +1,5 @@
+#requeriments.txt
+django
+djangorestframework
+pygments
+django-import_export

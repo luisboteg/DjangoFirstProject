@@ -6,6 +6,6 @@ from testbridgeforbillions.mentors.models import Mentor
 class MentorSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Mentor
-        fields = ['email', 'name', 'gender']
+        fields = ['url','email', 'name', 'gender']
         
 
