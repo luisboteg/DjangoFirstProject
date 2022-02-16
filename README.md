@@ -14,4 +14,5 @@ Para ejecutar el proyecto:
 4)  Ejecutar los siguientes comandos en la consola
 
     *docker build . --file ./Dockerfile --tag testapi*
+
     *docker run -dp 8000:8000 testapi*
